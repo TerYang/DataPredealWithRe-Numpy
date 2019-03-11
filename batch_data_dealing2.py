@@ -8,7 +8,7 @@ import os
 
 
 def writetofile(content, attr2):
-    with open(attr2,'a',encoding='utf-8') as f:
+    with open(attr2,'a', encoding='utf-8') as f:
         f.write(content + '\n')
         # f.writable()
         # f.writelines(json.dumps(content,ensure_ascii=False)+'\n')
